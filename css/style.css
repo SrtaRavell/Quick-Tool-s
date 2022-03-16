@@ -17,3 +17,38 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
+.sidebar {
+        min-width: 250px; 
+        max-width:450px;
+}
+
+@media (max-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (max-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+    .card {
+        min-width: 270px;
+        min-height: 450px;
+    }
+}
+
+@media (max-width:600px) {
+    .nav-sobre, .nav-contato {
+        display: none;
+    }
+    .sidebar {
+        min-width: 100px;
+    }
+    i {
+        font-size: 1.5rem;
+    }
+    span {
+        display: none;
+    }
+}
