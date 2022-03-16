@@ -21,6 +21,12 @@ body::-webkit-scrollbar {
         min-width: 250px; 
         max-width:450px;
 }
+.form-label {
+    margin: 0;
+}
+.btn {
+    width: auto;
+}
 
 @media (max-width:1200px) {
     .container {
@@ -32,6 +38,9 @@ body::-webkit-scrollbar {
     .container {
         max-width: 960px;
     }
+    .card-body > .container {
+        width: max-content;
+    } 
     .card {
         min-width: 270px;
         min-height: 450px;

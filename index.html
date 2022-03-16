@@ -37,67 +37,67 @@
             <div class="sidebar d-flex flex-column flex-shrink-1 p-3 text-white bg-dark">
                 <ul class="nav nav-pills flex-column mb-auto">
                     <li class="nav-item">
-                        <a href="#geradores" class="nav-link text-white pt-2" aria-current="page">
+                        <a href link="/parciais/_geradores.html" class="nav-link text-white pt-2" aria-current="page">
                             <i class="bi bi-gear me-1"></i>
                             <span>Geradores</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#conversores" class="nav-link text-white pt-2">
+                        <a href link="/parciais/_conversores.html" class="nav-link text-white pt-2">
                             <i class="bi bi-shuffle me-1"></i>
                             <span>Conversores</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#validadores" class="nav-link text-white pt-2">
+                        <a href link="/parciais/_validadores.html" class="nav-link text-white pt-2">
                             <i class="bi bi-shield-check me-1"></i>
                             <span>Validadores</span> 
                         </a>
                     </li>
                     <li>
-                        <a href="#crypo_moedas" class="nav-link text-white pt-2">
+                        <a href link="/parciais/_crypto_moedas.html" class="nav-link text-white pt-2">
                             <i class="bi bi-currency-bitcoin me-1"></i>
                             <span>Crypto moedas</span> 
                         </a>
                     </li>
                     <li>
-                        <a href="#moedas" class="nav-link text-white pt-2">
+                        <a href link="/parciais/_moedas.html" class="nav-link text-white pt-2">
                             <i class="bi bi-coin me-1"></i>
                             <span>Moedas</span> 
                         </a>
                     </li>
                     <li>
-                        <a href="#investimentos" class="nav-link text-white pt-2">
+                        <a href link="/parciais/_investimentos.html" class="nav-link text-white pt-2">
                             <i class="bi bi-graph-up me-1"></i>
                             <span>Investimentos</span> 
                         </a>
                     </li>
                     <li>
-                        <a href="#criptografia" class="nav-link text-white pt-2">
+                        <a href link="/parciais/_criptografia.html" class="nav-link text-white pt-2">
                             <i class="bi bi-incognito me-1"></i>
                             <span>Criptografia</span> 
                         </a>
                     </li>
                     <li>
-                        <a href="#manipular_texto" class="nav-link text-white pt-2">
+                        <a href link="/parciais/_manipular_texto.html" class="nav-link text-white pt-2">
                             <i class="bi bi-card-text me-1"></i>
                             <span>Manipular texto</span> 
                         </a>
                     </li>
                     <li>
-                        <a href="#data_hora" class="nav-link text-white pt-2">
+                        <a href link="/parciais/_data_hora.html" class="nav-link text-white pt-2">
                             <i class="bi bi-clock-history me-1"></i>
                             <span>Data e hora</span> 
                         </a>
                     </li>
                     <li>
-                        <a href="#matematica" class="nav-link text-white pt-2">
+                        <a href link="/parciais/_matematica.html" class="nav-link text-white pt-2">
                             <i class="bi bi-calculator me-1"></i>
                             <span>Matemática</span> 
                         </a>
                     </li>
                     <li>
-                        <a href="#saude" class="nav-link text-white pt-2">
+                        <a href link="/parciais/_saude.html" class="nav-link text-white pt-2">
                             <i class="bi bi-heart-pulse me-1"></i>
                             <span>Saúde</span> 
                         </a>
@@ -106,81 +106,13 @@
             </div>
             <!--Sidebar-->
 
-            <div class="d-flex flex-row flex-wrap justify-content-evenly overflow-auto p-3">
-                <div class="card col-5 h-50 mb-4">
-                    <h5 class="card-header">Gerador de senha</h5>
-                    <div class="card-body d-flex flex-column justify-content-center gap-3">
-                        <h5 class="card-title">Opções:</h5>
-                        <div>
-                            <input class="form-check-input" type="checkbox" value="" id="numeros" checked>
-                            <label class="form-check-label" for="numeros">Números - 01234</label>
-                        </div>
-                        <div>
-                            <input class="form-check-input" type="checkbox" value="" id="maiuscula" checked>
-                            <label class="form-check-label" for="maiuscula">Maiúscula - ABCDE</label>
-                        </div>
-                        <div>
-                            <input class="form-check-input" type="checkbox" value="" id="minuscula" checked>
-                            <label class="form-check-label" for="minuscula">Minúscula - abcde</label>
-                        </div>
-                        <div>
-                            <input class="form-check-input" type="checkbox" value="" id="simbolos" checked>
-                            <label class="form-check-label" for="simbolos">Símbolos - !@#$%</label>
-                        </div>
-                        <div class="d-flex inline-block align-items-center">
-                            <label class="me-2" for="tamanho">Quantidade de caracteres:</label>
-                            <input class="form-control w-25" id="tamanho" value="8" type="number" min="0" max="20" step="1">
-                        </div>
-                        <div>
-                            <input class="form-control" type="text" id="pwd">
-                        </div>
-                        <a href="#" class="container btn btn-primary btn-sm d-grid col-4 mt-2">Gerar</a>
-                    </div>
-                </div>
-                <!--card -->
-                <div class="card col-5 h-50 mb-4">
-                    <h5 class="card-header">Gerador de CPF/CNPJ</h5>
-                    <div class="card-body d-flex flex-column justify-content-center">
-                        <div>
-                            <label class="form-label" for="gerador_cpf">CPF gerado:</label>
-                            <input class="form-control mb-2" type="text" id="gerador_cpf">
-                        </div>
-                        <a href="#" class="btn btn-primary btn-sm container d-grid col-4 mt-3">Gerar CPF</a>
-                    </div>
-                    <div class="card-body">
-                        <div>
-                            <label class="form-label" for="gerador_cnpj">CNPJ gerado:</label>
-                            <input class="form-control mb-2" type="text" id="gerador_cnpj">
-                        </div>
-                        <a href="#" class="btn btn-primary btn-sm container d-grid col-4 mt-3">Gerar CNPJ</a>
-                    </div>
-                </div>
-                <!--card -->
-                <div class="card col-5 h-50 mb-4">
-                    <h5 class="card-header">Featured</h5>
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <!--card -->
-                <div class="card col-5 h-50 mb-4">
-                    <h5 class="card-header">Featured</h5>
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <!--card -->
-                
+            <div class="d-flex flex-row flex-wrap justify-content-evenly overflow-auto p-3" id="main">
+               <!--cards-->
             </div>
             <!--main-->
 
         </div>
         <!--Sidebar e Main-->
-        <!--FOOTER ???-->
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-0 border-top">
             <p class="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>
 
@@ -199,6 +131,7 @@
 
     <script src="/bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
     <script src="/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/conteudo_cards.js"></script>
 </body>
 
 </html>
