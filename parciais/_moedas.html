@@ -1,3 +1,1214 @@
-<h1>moedas</h1>
-
 <!--conversor de moedas-->
+<div class="card col-5 h-50 mb-4 overflow-auto">
+    <h5 class="card-header">Conversor de moedas</h5>
+    <div class="card-body d-flex flex-column justify-content-evenly align-items-center">
+        <div class="w-100">
+            <label class="mt-2" for="de">De:</label>
+            <select class="form-select" id="de">
+                <option value="1">África do Sul (Rande)</option>
+                <option value="2">Albânia (lek)</option>
+                <option value="3">Anguila (Dólar)</option>
+                <option value="4">Antilhas Holandesas (Florim)</option>
+                <option value="5">Arábia Saudita (Rial)</option>
+                <option value="6">Argélia (Dinar)</option>
+                <option value="7">Argentina (Peso)</option>
+                <option value="8">Aruba (Florim)</option>
+                <option value="9">Austrália (Dólar)</option>
+                <option value="10">Bahamas (Dólar)</option>
+                <option value="11">Bahrein (Dinar)</option>
+                <option value="12">Banglasdesh (Taca)</option>
+                <option value="13">Barbados (Dólar)</option>
+                <option value="14">Belarus (Rublo)</option>
+                <option value="15">Belize (Dólar)</option>
+                <option value="16">Bermuda (Dólar)</option>
+                <option value="17">Birmânia (Quiate)</option>
+                <option value="18">Bolívia (Boliviano)</option>
+                <option value="19">Botsuana (Pula)</option>
+                <option selected value="20">Brasil (Real)</option>
+                <option value="21">Brunei (Dólar)</option>
+                <option value="22">Bulgária (Lev)</option>
+                <option value="23">Burundi (Franco)</option>
+                <option value="24">Butão (Rúpia)</option>
+                <option value="25">Butão (Ngultrum)</option>
+                <option value="26">Cabo Verde (Escudo)</option>
+                <option value="27">Camarões (Franco)</option>
+                <option value="28">Camboja (Riel)</option>
+                <option value="29">Canadá (Dólar)</option>
+                <option value="30">Catar (Rial)</option>
+                <option value="31">Cazaquistão (Tenge)</option>
+                <option value="32">Chile (Peso)</option>
+                <option value="33">China (Iuan)</option>
+                <option value="34">Cingapura Iuan Renmimbi</option>
+                <option value="35">Colômbia (Peso)</option>
+                <option value="36">Comores (Franco)</option>
+                <option value="37">Coréia no Norte (Won)</option>
+                <option value="38">Coréia no Sul (Won)</option>
+                <option value="39">Costa Rica (Colon)</option>
+                <option value="40">Croácia (Kuna)</option>
+                <option value="41">Cuba (Peso)</option>
+                <option value="42">Dinamarca (Coroa)</option>
+                <option value="43">Djibuti (Franco)</option>
+                <option value="44">Egito (Libra)</option>
+                <option value="45">El Salvador (Cólon)</option>
+                <option value="46">Emirados Árabes Unidos (Dirham)</option>
+                <option value="47">Equador (Sucre)</option>
+                <option value="48">Eritréia (Nakfa)</option>
+                <option value="49">Eslováquia (Coroa)</option>
+                <option value="50">Eslovênia (Tolar)</option>
+                <option value="51">Estados Unidos (Dólar)</option>
+                <option value="52">Estônia (Coroa)</option>
+                <option value="53">Etiópia (Birr)</option>
+                <option value="54">Europa (Euro)</option>
+                <option value="55">Fiji (Dólar)</option>
+                <option value="56">Filipinas (Peso)</option>
+                <option value="57">Gâmbia (Dalasi)</option>
+                <option value="58">Gana (Cedi)</option>
+                <option value="59">Gibraltar (Libra)</option>
+                <option value="60">Guatemala (Quetzal)</option>
+                <option value="61">Guiana (Dólar)</option>
+                <option value="62">Guiné (Franco)</option>
+                <option value="63">Honduras (Lempira)</option>
+                <option value="64">Hungria (Forint)</option>
+                <option value="65">Iêmen (Rial)</option>
+                <option value="66">Ilhas Cayman (Dólar)</option>
+                <option value="67">Ilhas Malvinas (Libra)</option>
+                <option value="68">Ilhas Salomão (Dólar)</option>
+                <option value="69">Indonésia (Rúpia)</option>
+                <option value="70">Irã (Rial)</option>
+                <option value="71">Iraque (Dinar)</option>
+                <option value="72">Islândia (Coroa)</option>
+                <option value="73">Israel (Shekel)</option>
+                <option value="74">Jamaica (Dólar)</option>
+                <option value="75">Japão (Iene)</option>
+                <option value="76">Jodânia (Dinar)</option>
+                <option value="77">Kuwait (Dinar)</option>
+                <option value="78">Laos (Kip)</option>
+                <option value="79">Lesoto (Loti)</option>
+                <option value="80">Letônia (Lat)</option>
+                <option value="81">Líbano (Libra)</option>
+                <option value="82">Libéria (Dólar)</option>
+                <option value="83">Líbia (Dinar)</option>
+                <option value="84">Lituânia (Lita)</option>
+                <option value="85">Macau (Pataca)</option>
+                <option value="86">Malásia (Ringgit)</option>
+                <option value="87">Maláui (Quacha)</option>
+                <option value="88">Maldivas (Rúpia)</option>
+                <option value="89">Malta (Lira)</option>
+                <option value="90">Marrocos (Dirham)</option>
+                <option value="91">Maurício (Rúpia)</option>
+                <option value="92">Mauritânia (Ouguiya)</option>
+                <option value="93">México (Peso)</option>
+                <option value="94">Moldova (Leu)</option>
+                <option value="95">Mongólia (Tugrik)</option>
+                <option value="96">Namíbia (Dólar)</option>
+                <option value="97">Nepal (Rúpia)</option>
+                <option value="98">Nicarágua (Córdoba)</option>
+                <option value="99">Nigéria (Naira)</option>
+                <option value="100">Noruega (Coroa)</option>
+                <option value="101">Nova Zelândia (Dólar)</option>
+                <option value="102">Omã (Rial)</option>
+                <option value="103">Panamá (Balboa)</option>
+                <option value="104">Papua Nova-Guiné (Kina)</option>
+                <option value="105">Paquistão (Rúpia)</option>
+                <option value="106">Paraguai (Guarani)</option>
+                <option value="107">Peru (Novo Sol)</option>
+                <option value="108">Polinésia Francesa (Franco)</option>
+                <option value="109">Polônia (Zloty)</option>
+                <option value="110">Quênia (Xelim)</option>
+                <option value="111">Reino Unido (Libra)</option>
+                <option value="112">República da Macedônia (Denar)</option>
+                <option value="113">República Dominicana (Peso)</option>
+                <option value="114">Romênia (Novo Leu)</option>
+                <option value="115">Ruanda (Franco)</option>
+                <option value="116">Rússia (Rublo)</option>
+                <option value="117">Samoa (Tala)</option>
+                <option value="118">Santa Helena (Libra)</option>
+                <option value="119">São Tomé (Dobra)</option>
+                <option value="120">Serra Leoa (Leone)</option>
+                <option value="121">Seychelles (Rúpia)</option>
+                <option value="122">Síria (Libra)</option>
+                <option value="123">Somália (Xelim)</option>
+                <option value="124">Sri Lanka (Rúpia)</option>
+                <option value="125">Suazilândia (Lilangeni)</option>
+                <option value="126">Sudão (Libra)</option>
+                <option value="127">Suécia (Coroa)</option>
+                <option value="128">Suiça (Franco)</option>
+                <option value="129">Tailândia (Baht)</option>
+                <option value="130">Taiwan (Dólar)</option>
+                <option value="131">Tanzânia (Xelim)</option>
+                <option value="132">Tchecoslováquia (Coroa)</option>
+                <option value="133">Tonga (Pa'anga)</option>
+                <option value="134">Trindade e Tobago (Dólar)</option>
+                <option value="135">Tunísia (Dinar)</option>
+                <option value="136">Turquia (Lira)</option>
+                <option value="137">Ucrânia (Hyvnia)</option>
+                <option value="138">Uganda (Xelim)</option>
+                <option value="139">Uruguai (Novo Peso)</option>
+                <option value="140">Vanuatu (Vatu)</option>
+                <option value="141">Venezuela (Bolívar)</option>
+                <option value="142">Vietnã (Dong)</option>
+                <option value="143">Zâmbia (Quacha)</option>
+            </select>
+            <label class="mt-2" for="para">Para:</label>
+            <select class="form-select" id="para">
+                <option value="1">África do Sul (Rande)</option>
+                <option value="2">Albânia (lek)</option>
+                <option value="3">Anguila (Dólar)</option>
+                <option value="4">Antilhas Holandesas (Florim)</option>
+                <option value="5">Arábia Saudita (Rial)</option>
+                <option value="6">Argélia (Dinar)</option>
+                <option value="7">Argentina (Peso)</option>
+                <option value="8">Aruba (Florim)</option>
+                <option value="9">Austrália (Dólar)</option>
+                <option value="10">Bahamas (Dólar)</option>
+                <option value="11">Bahrein (Dinar)</option>
+                <option value="12">Banglasdesh (Taca)</option>
+                <option value="13">Barbados (Dólar)</option>
+                <option value="14">Belarus (Rublo)</option>
+                <option value="15">Belize (Dólar)</option>
+                <option value="16">Bermuda (Dólar)</option>
+                <option value="17">Birmânia (Quiate)</option>
+                <option value="18">Bolívia (Boliviano)</option>
+                <option value="19">Botsuana (Pula)</option>
+                <option value="20">Brasil (Real)</option>
+                <option value="21">Brunei (Dólar)</option>
+                <option value="22">Bulgária (Lev)</option>
+                <option value="23">Burundi (Franco)</option>
+                <option value="24">Butão (Rúpia)</option>
+                <option value="25">Butão (Ngultrum)</option>
+                <option value="26">Cabo Verde (Escudo)</option>
+                <option value="27">Camarões (Franco)</option>
+                <option value="28">Camboja (Riel)</option>
+                <option value="29">Canadá (Dólar)</option>
+                <option value="30">Catar (Rial)</option>
+                <option value="31">Cazaquistão (Tenge)</option>
+                <option value="32">Chile (Peso)</option>
+                <option value="33">China (Iuan)</option>
+                <option value="34">Cingapura Iuan Renmimbi</option>
+                <option value="35">Colômbia (Peso)</option>
+                <option value="36">Comores (Franco)</option>
+                <option value="37">Coréia no Norte (Won)</option>
+                <option value="38">Coréia no Sul (Won)</option>
+                <option value="39">Costa Rica (Colon)</option>
+                <option value="40">Croácia (Kuna)</option>
+                <option value="41">Cuba (Peso)</option>
+                <option value="42">Dinamarca (Coroa)</option>
+                <option value="43">Djibuti (Franco)</option>
+                <option value="44">Egito (Libra)</option>
+                <option value="45">El Salvador (Cólon)</option>
+                <option value="46">Emirados Árabes Unidos (Dirham)</option>
+                <option value="47">Equador (Sucre)</option>
+                <option value="48">Eritréia (Nakfa)</option>
+                <option value="49">Eslováquia (Coroa)</option>
+                <option value="50">Eslovênia (Tolar)</option>
+                <option selected value="51">Estados Unidos (Dólar)</option>
+                <option value="52">Estônia (Coroa)</option>
+                <option value="53">Etiópia (Birr)</option>
+                <option value="54">Europa (Euro)</option>
+                <option value="55">Fiji (Dólar)</option>
+                <option value="56">Filipinas (Peso)</option>
+                <option value="57">Gâmbia (Dalasi)</option>
+                <option value="58">Gana (Cedi)</option>
+                <option value="59">Gibraltar (Libra)</option>
+                <option value="60">Guatemala (Quetzal)</option>
+                <option value="61">Guiana (Dólar)</option>
+                <option value="62">Guiné (Franco)</option>
+                <option value="63">Honduras (Lempira)</option>
+                <option value="64">Hungria (Forint)</option>
+                <option value="65">Iêmen (Rial)</option>
+                <option value="66">Ilhas Cayman (Dólar)</option>
+                <option value="67">Ilhas Malvinas (Libra)</option>
+                <option value="68">Ilhas Salomão (Dólar)</option>
+                <option value="69">Indonésia (Rúpia)</option>
+                <option value="70">Irã (Rial)</option>
+                <option value="71">Iraque (Dinar)</option>
+                <option value="72">Islândia (Coroa)</option>
+                <option value="73">Israel (Shekel)</option>
+                <option value="74">Jamaica (Dólar)</option>
+                <option value="75">Japão (Iene)</option>
+                <option value="76">Jodânia (Dinar)</option>
+                <option value="77">Kuwait (Dinar)</option>
+                <option value="78">Laos (Kip)</option>
+                <option value="79">Lesoto (Loti)</option>
+                <option value="80">Letônia (Lat)</option>
+                <option value="81">Líbano (Libra)</option>
+                <option value="82">Libéria (Dólar)</option>
+                <option value="83">Líbia (Dinar)</option>
+                <option value="84">Lituânia (Lita)</option>
+                <option value="85">Macau (Pataca)</option>
+                <option value="86">Malásia (Ringgit)</option>
+                <option value="87">Maláui (Quacha)</option>
+                <option value="88">Maldivas (Rúpia)</option>
+                <option value="89">Malta (Lira)</option>
+                <option value="90">Marrocos (Dirham)</option>
+                <option value="91">Maurício (Rúpia)</option>
+                <option value="92">Mauritânia (Ouguiya)</option>
+                <option value="93">México (Peso)</option>
+                <option value="94">Moldova (Leu)</option>
+                <option value="95">Mongólia (Tugrik)</option>
+                <option value="96">Namíbia (Dólar)</option>
+                <option value="97">Nepal (Rúpia)</option>
+                <option value="98">Nicarágua (Córdoba)</option>
+                <option value="99">Nigéria (Naira)</option>
+                <option value="100">Noruega (Coroa)</option>
+                <option value="101">Nova Zelândia (Dólar)</option>
+                <option value="102">Omã (Rial)</option>
+                <option value="103">Panamá (Balboa)</option>
+                <option value="104">Papua Nova-Guiné (Kina)</option>
+                <option value="105">Paquistão (Rúpia)</option>
+                <option value="106">Paraguai (Guarani)</option>
+                <option value="107">Peru (Novo Sol)</option>
+                <option value="108">Polinésia Francesa (Franco)</option>
+                <option value="109">Polônia (Zloty)</option>
+                <option value="110">Quênia (Xelim)</option>
+                <option value="111">Reino Unido (Libra)</option>
+                <option value="112">República da Macedônia (Denar)</option>
+                <option value="113">República Dominicana (Peso)</option>
+                <option value="114">Romênia (Novo Leu)</option>
+                <option value="115">Ruanda (Franco)</option>
+                <option value="116">Rússia (Rublo)</option>
+                <option value="117">Samoa (Tala)</option>
+                <option value="118">Santa Helena (Libra)</option>
+                <option value="119">São Tomé (Dobra)</option>
+                <option value="120">Serra Leoa (Leone)</option>
+                <option value="121">Seychelles (Rúpia)</option>
+                <option value="122">Síria (Libra)</option>
+                <option value="123">Somália (Xelim)</option>
+                <option value="124">Sri Lanka (Rúpia)</option>
+                <option value="125">Suazilândia (Lilangeni)</option>
+                <option value="126">Sudão (Libra)</option>
+                <option value="127">Suécia (Coroa)</option>
+                <option value="128">Suiça (Franco)</option>
+                <option value="129">Tailândia (Baht)</option>
+                <option value="130">Taiwan (Dólar)</option>
+                <option value="131">Tanzânia (Xelim)</option>
+                <option value="132">Tchecoslováquia (Coroa)</option>
+                <option value="133">Tonga (Pa'anga)</option>
+                <option value="134">Trindade e Tobago (Dólar)</option>
+                <option value="135">Tunísia (Dinar)</option>
+                <option value="136">Turquia (Lira)</option>
+                <option value="137">Ucrânia (Hyvnia)</option>
+                <option value="138">Uganda (Xelim)</option>
+                <option value="139">Uruguai (Novo Peso)</option>
+                <option value="140">Vanuatu (Vatu)</option>
+                <option value="141">Venezuela (Bolívar)</option>
+                <option value="142">Vietnã (Dong)</option>
+                <option value="143">Zâmbia (Quacha)</option>
+            </select>
+            <input class="form-control mb-2 mt-4" type="text" id="valor_moeda" placeholder="Valor">
+        </div>
+        <div class="w-100 d-flex flex-column align-items-center">
+            <a href="#" class="btn btn-primary btn-sm d-grid col-4 w-50">Converter</a>
+            <input class="form-control mb-2 mt-5" type="text" id="conv_moedas">
+        </div>
+    </div>
+</div>
+<!--alguma coisa-->
+<div class="card col-5 h-50 mb-4 overflow-auto">
+    <h5 class="card-header"></h5>
+    <div class="card-body d-flex flex-column justify-content-evenly align-items-center">
+        <div class="w-100 d-flex flex-column align-items-center">
+        </div>
+        <div class="w-100"></div>
+    </div>
+</div>
+<!--alguma coisa-->
+<div class="card col-5 h-50 mb-4 overflow-auto">
+    <h5 class="card-header"></h5>
+    <div class="card-body d-flex flex-column justify-content-evenly align-items-center">
+        <div class="w-100 d-flex flex-column align-items-center">
+        </div>
+        <div class="w-100"></div>
+    </div>
+</div>
+<!--alguma coisa-->
+<div class="card col-5 h-50 mb-4 overflow-auto">
+    <h5 class="card-header"></h5>
+    <div class="card-body d-flex flex-column justify-content-evenly align-items-center">
+        <div class="w-100 d-flex flex-column align-items-center">
+        </div>
+        <div class="w-100"></div>
+    </div>
+</div>
+<!--codigo dos bancos-->
+<div class="card col-10 mb-4 overflow-auto">
+    <h5 class="card-header">Código dos Bancos</h5>
+    <div class="card-body d-flex flex-column justify-content-evenly align-items-center">
+        <div class="w-100">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                      <th scope="col">Código</th>
+                      <th scope="col">Banco</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>001</th>
+                      <td>BANCO DO BRASIL S.A (BB)</td>
+                    </tr>
+                    <tr>
+                      <th>237</th>
+                      <td>BRADESCO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>335</th>
+                      <td>Banco Digio S.A</td>
+                    </tr>
+                    <tr>
+                      <th>260</th>
+                      <td>NU PAGAMENTOS S.A (NUBANK)</td>
+                    </tr>
+                    <tr>
+                      <th>290</th>
+                      <td>Pagseguro Internet S.A (PagBank)</td>
+                    </tr>
+                    <tr>
+                      <th>380</th>
+                      <td>PicPay Servicos S.A.</td>
+                    </tr>
+                    <tr>
+                      <th>323</th>
+                      <td>Mercado Pago (Mercado Livre)</td>
+                    </tr>
+                    <tr>
+                      <th>237</th>
+                      <td>NEXT BANK</td>
+                    </tr>
+                    <tr>
+                      <th>637</th>
+                      <td>BANCO SOFISA S.A</td>
+                    </tr>
+                    <tr>
+                      <th>077</th>
+                      <td>BANCO INTER S.A</td>
+                    </tr>
+                    <tr>
+                      <th>341</th>
+                      <td>ITAÚ UNIBANCO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>104</th>
+                      <td>CAIXA ECONÔMICA FEDERAL (CEF)</td>
+                    </tr>
+                    <tr>
+                      <th>033</th>
+                      <td>BANCO SANTANDER BRASIL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>212</th>
+                      <td>BANCO ORIGINAL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>756</th>
+                      <td>BANCOOB (BANCO COOPERATIVO DO BRASIL)</td>
+                    </tr>
+                    <tr>
+                      <th>655</th>
+                      <td>BANCO VOTORANTIM S.A</td>
+                    </tr>
+                    <tr>
+                      <th>655</th>
+                      <td>NEON PAGAMENTOS S.A</td>
+                    </tr>
+                    <tr>
+                      <th>041</th>
+                      <td>BANRISUL – BANCO DO ESTADO DO RIO GRANDE DO SUL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>389</th>
+                      <td>BANCO MERCANTIL DO BRASIL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>422</th>
+                      <td>BANCO SAFRA S.A</td>
+                    </tr>
+                    <tr>
+                      <th>070</th>
+                      <td>BANCO DE BRASÍLIA (BRB)</td>
+                    </tr>
+                    <tr>
+                      <th>136</th>
+                      <td>UNICRED COOPERATIVA</td>
+                    </tr>
+                    <tr>
+                      <th>741</th>
+                      <td>BANCO RIBEIRÃO PRETO</td>
+                    </tr>
+                    <tr>
+                      <th>739</th>
+                      <td>BANCO CETELEM S.A</td>
+                    </tr>
+                    <tr>
+                      <th>743</th>
+                      <td>BANCO SEMEAR S.A</td>
+                    </tr>
+                    <tr>
+                      <th>100</th>
+                      <td>PLANNER CORRETORA DE VALORES S.A</td>
+                    </tr>
+                    <tr>
+                      <th>096</th>
+                      <td>BANCO B3 S.A</td>
+                    </tr>
+                    <tr>
+                      <th>747</th>
+                      <td>Banco RABOBANK INTERNACIONAL DO BRASIL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>748</th>
+                      <td>SICREDI S.A</td>
+                    </tr>
+                    <tr>
+                      <th>752</th>
+                      <td>BNP PARIBAS BRASIL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>091</th>
+                      <td>UNICRED CENTRAL RS</td>
+                    </tr>
+                    <tr>
+                      <th>399</th>
+                      <td>KIRTON BANK</td>
+                    </tr>
+                    <tr>
+                      <th>108</th>
+                      <td>PORTOCRED S.A</td>
+                    </tr>
+                    <tr>
+                      <th>757</th>
+                      <td>BANCO KEB HANA DO BRASIL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>102</th>
+                      <td>XP INVESTIMENTOS S.A</td>
+                    </tr>
+                    <tr>
+                      <th>348</th>
+                      <td>BANCO XP S/A</td>
+                    </tr>
+                    <tr>
+                      <th>340</th>
+                      <td>SUPER PAGAMENTOS S/A (SUPERDITAL)</td>
+                    </tr>
+                    <tr>
+                      <th>364</th>
+                      <td>GERENCIANET PAGAMENTOS DO BRASIL</td>
+                    </tr>
+                    <tr>
+                      <th>084</th>
+                      <td>UNIPRIME NORTE DO PARANÁ	</td>
+                    </tr>
+                    <tr>
+                      <th>180</th>
+                      <td>CM CAPITAL MARKETS CCTVM LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>066</th>
+                      <td>BANCO MORGAN STANLEY S.A</td>
+                    </tr>
+                    <tr>
+                      <th>015</th>
+                      <td>UBS BRASIL CCTVM S.A</td>
+                    </tr>
+                    <tr>
+                      <th>143</th>
+                      <td>TREVISO CC S.A</td>
+                    </tr>
+                    <tr>
+                      <th>062</th>
+                      <td>HIPERCARD BM S.A</td>
+                    </tr>
+                    <tr>
+                      <th>074</th>
+                      <td>BCO. J.SAFRA S.A</td>
+                    </tr>
+                    <tr>
+                      <th>099</th>
+                      <td>UNIPRIME CENTRAL CCC LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>025</th>
+                      <td>BANCO ALFA S.A.</td>
+                    </tr>
+                    <tr>
+                      <th>075</th>
+                      <td>BCO ABN AMRO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>040</th>
+                      <td>BANCO CARGILL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>190</th>
+                      <td>SERVICOOP</td>
+                    </tr>
+                    <tr>
+                      <th>063</th>
+                      <td>BANCO BRADESCARD</td>
+                    </tr>
+                    <tr>
+                      <th>191</th>
+                      <td>NOVA FUTURA CTVM LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>064</th>
+                      <td>GOLDMAN SACHS DO BRASIL BM S.A</td>
+                    </tr>
+                    <tr>
+                      <th>097</th>
+                      <td>CCC NOROESTE BRASILEIRO LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>016</th>
+                      <td>CCM DESP TRÂNS SC E RS</td>
+                    </tr>
+                    <tr>
+                      <th>012</th>
+                      <td>BANCO INBURSA</td>
+                    </tr>
+                    <tr>
+                      <th>003</th>
+                      <td>BANCO DA AMAZONIA S.A</td>
+                    </tr>
+                    <tr>
+                      <th>060</th>
+                      <td>CONFIDENCE CC S.A</td>
+                    </tr>
+                    <tr>
+                      <th>037</th>
+                      <td>BANCO DO ESTADO DO PARÁ S.A</td>
+                    </tr>
+                    <tr>
+                      <th>159</th>
+                      <td>CASA CREDITO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>172</th>
+                      <td>ALBATROSS CCV S.A</td>
+                    </tr>
+                    <tr>
+                      <th>085</th>
+                      <td>COOP CENTRAL AILOS</td>
+                    </tr>
+                    <tr>
+                      <th>114</th>
+                      <td>CENTRAL COOPERATIVA DE CRÉDITO NO ESTADO DO ESPÍRITO SANTO</td>
+                    </tr>
+                    <tr>
+                      <th>036</th>
+                      <td>BANCO BBI S.A</td>
+                    </tr>
+                    <tr>
+                      <th>394</th>
+                      <td>BANCO BRADESCO FINANCIAMENTOS S.A</td>
+                    </tr>
+                    <tr>
+                      <th>004</th>
+                      <td>BANCO DO NORDESTE DO BRASIL S.A.</td>
+                    </tr>
+                    <tr>
+                      <th>320</th>
+                      <td>BANCO CCB BRASIL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>189</th>
+                      <td>HS FINANCEIRA</td>
+                    </tr>
+                    <tr>
+                      <th>105</th>
+                      <td>LECCA CFI S.A</td>
+                    </tr>
+                    <tr>
+                      <th>076</th>
+                      <td>BANCO KDB BRASIL S.A.</td>
+                    </tr>
+                    <tr>
+                      <th>082</th>
+                      <td>BANCO TOPÁZIO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>286</th>
+                      <td>CCR DE OURO</td>
+                    </tr>
+                    <tr>
+                      <th>093</th>
+                      <td>PÓLOCRED SCMEPP LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>273</th>
+                      <td>CCR DE SÃO MIGUEL DO OESTE</td>
+                    </tr>
+                    <tr>
+                      <th>157</th>
+                      <td>ICAP DO BRASIL CTVM LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>183</th>
+                      <td>SOCRED S.A</td>
+                    </tr>
+                    <tr>
+                      <th>014</th>
+                      <td>NATIXIS BRASIL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>130</th>
+                      <td>CARUANA SCFI</td>
+                    </tr>
+                    <tr>
+                      <th>127</th>
+                      <td>CODEPE CVC S.A</td>
+                    </tr>
+                    <tr>
+                      <th>079</th>
+                      <td>BANCO ORIGINAL DO AGRONEGÓCIO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>081</th>
+                      <td>BBN BANCO BRASILEIRO DE NEGOCIOS S.A</td>
+                    </tr>
+                    <tr>
+                      <th>118</th>
+                      <td>STANDARD CHARTERED BI S.A</td>
+                    </tr>
+                    <tr>
+                      <th>133</th>
+                      <td>CRESOL CONFEDERAÇÃO</td>
+                    </tr>
+                    <tr>
+                      <th>121</th>
+                      <td>BANCO AGIBANK S.A</td>
+                    </tr>
+                    <tr>
+                      <th>083</th>
+                      <td>BANCO DA CHINA BRASIL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>138</th>
+                      <td>GET MONEY CC LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>024</th>
+                      <td>BCO BANDEPE S.A</td>
+                    </tr>
+                    <tr>
+                      <th>095</th>
+                      <td>BANCO CONFIDENCE DE CÂMBIO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>094</th>
+                      <td>BANCO FINAXIS</td>
+                    </tr>
+                    <tr>
+                      <th>276</th>
+                      <td>SENFF S.A</td>
+                    </tr>
+                    <tr>
+                      <th>137</th>
+                      <td>MULTIMONEY CC LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>092</th>
+                      <td>BRK S.A</td>
+                    </tr>
+                    <tr>
+                      <th>047</th>
+                      <td>BANCO BCO DO ESTADO DE SERGIPE S.A</td>
+                    </tr>
+                    <tr>
+                      <th>144</th>
+                      <td>BEXS BANCO DE CAMBIO S.A.</td>
+                    </tr>
+                    <tr>
+                      <th>126</th>
+                      <td>BR PARTNERS BI</td>
+                    </tr>
+                    <tr>
+                      <th>301</th>
+                      <td>BPP INSTITUIÇÃO DE PAGAMENTOS S.A</td>
+                    </tr>
+                    <tr>
+                      <th>173</th>
+                      <td>BRL TRUST DTVM SA</td>
+                    </tr>
+                    <tr>
+                      <th>119</th>
+                      <td>BANCO WESTERN UNION</td>
+                    </tr>
+                    <tr>
+                      <th>254</th>
+                      <td>PARANA BANCO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>268</th>
+                      <td>BARIGUI CH</td>
+                    </tr>
+                    <tr>
+                      <th>107</th>
+                      <td>BANCO BOCOM BBM S.A</td>
+                    </tr>
+                    <tr>
+                      <th>412</th>
+                      <td>BANCO CAPITAL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>124</th>
+                      <td>BANCO WOORI BANK DO BRASIL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>149</th>
+                      <td>FACTA S.A. CFI</td>
+                    </tr>
+                    <tr>
+                      <th>197</th>
+                      <td>STONE PAGAMENTOS S.A</td>
+                    </tr>
+                    <tr>
+                      <th>142</th>
+                      <td>BROKER BRASIL CC LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>389</th>
+                      <td>BANCO MERCANTIL DO BRASIL S.A.</td>
+                    </tr>
+                    <tr>
+                      <th>184</th>
+                      <td>BANCO ITAÚ BBA S.A</td>
+                    </tr>
+                    <tr>
+                      <th>634</th>
+                      <td>BANCO TRIANGULO S.A (BANCO TRIÂNGULO)</td>
+                    </tr>
+                    <tr>
+                      <th>545</th>
+                      <td>SENSO CCVM S.A</td>
+                    </tr>
+                    <tr>
+                      <th>132</th>
+                      <td>ICBC DO BRASIL BM S.A</td>
+                    </tr>
+                    <tr>
+                      <th>298</th>
+                      <td>VIPS CC LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>129</th>
+                      <td>UBS BRASIL BI S.A</td>
+                    </tr>
+                    <tr>
+                      <th>128</th>
+                      <td>MS BANK S.A BANCO DE CÂMBIO</td>
+                    </tr>
+                    <tr>
+                      <th>194</th>
+                      <td>PARMETAL DTVM LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>310</th>
+                      <td>VORTX DTVM LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>163</th>
+                      <td>COMMERZBANK BRASIL S.A BANCO MÚLTIPLO</td>
+                    </tr>
+                    <tr>
+                      <th>280</th>
+                      <td>AVISTA S.A</td>
+                    </tr>
+                    <tr>
+                      <th>146</th>
+                      <td>GUITTA CC LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>279</th>
+                      <td>CCR DE PRIMAVERA DO LESTE</td>
+                    </tr>
+                    <tr>
+                      <th>182</th>
+                      <td>DACASA FINANCEIRA S/A</td>
+                    </tr>
+                    <tr>
+                      <th>278</th>
+                      <td>GENIAL INVESTIMENTOS CVM S.A</td>
+                    </tr>
+                    <tr>
+                      <th>271</th>
+                      <td>IB CCTVM LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>021</th>
+                      <td>BANCO BANESTES S.A</td>
+                    </tr>
+                    <tr>
+                      <th>246</th>
+                      <td>BANCO ABC BRASIL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>751</th>
+                      <td>SCOTIABANK BRASIL</td>
+                    </tr>
+                    <tr>
+                      <th>208</th>
+                      <td>BANCO BTG PACTUAL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>746</th>
+                      <td>BANCO MODAL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>241</th>
+                      <td>BANCO CLASSICO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>612</th>
+                      <td>BANCO GUANABARA S.A</td>
+                    </tr>
+                    <tr>
+                      <th>604</th>
+                      <td>BANCO INDUSTRIAL DO BRASIL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>505</th>
+                      <td>BANCO CREDIT SUISSE (BRL) S.A</td>
+                    </tr>
+                    <tr>
+                      <th>196</th>
+                      <td>BANCO FAIR CC S.A</td>
+                    </tr>
+                    <tr>
+                      <th>300</th>
+                      <td>BANCO LA NACION ARGENTINA</td>
+                    </tr>
+                    <tr>
+                      <th>477</th>
+                      <td>CITIBANK N.A</td>
+                    </tr>
+                    <tr>
+                      <th>266</th>
+                      <td>BANCO CEDULA S.A</td>
+                    </tr>
+                    <tr>
+                      <th>122</th>
+                      <td>BANCO BRADESCO BERJ S.A</td>
+                    </tr>
+                    <tr>
+                      <th>376</th>
+                      <td>BANCO J.P. MORGAN S.A</td>
+                    </tr>
+                    <tr>
+                      <th>473</th>
+                      <td>BANCO CAIXA GERAL BRASIL S.A	</td>
+                    </tr>
+                    <tr>
+                      <th>745</th>
+                      <td>BANCO CITIBANK S.A</td>
+                    </tr>
+                    <tr>
+                      <th>120</th>
+                      <td>BANCO RODOBENS S.A</td>
+                    </tr>
+                    <tr>
+                      <th>265</th>
+                      <td>BANCO FATOR S.A</td>
+                    </tr>
+                    <tr>
+                      <th>007</th>
+                      <td>BNDES (Banco Nacional do Desenvolvimento Social)</td>
+                    </tr>
+                    <tr>
+                      <th>188</th>
+                      <td>ATIVA S.A INVESTIMENTOS</td>
+                    </tr>
+                    <tr>
+                      <th>134</th>
+                      <td>BGC LIQUIDEZ DTVM LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>641</th>
+                      <td>BANCO ALVORADA S.A</td>
+                    </tr>
+                    <tr>
+                      <th>029</th>
+                      <td>BANCO ITAÚ CONSIGNADO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>243</th>
+                      <td>BANCO MÁXIMA S.A</td>
+                    </tr>
+                    <tr>
+                      <th>078</th>
+                      <td>HAITONG BI DO BRASIL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>111</th>
+                      <td>BANCO OLIVEIRA TRUST DTVM S.A</td>
+                    </tr>
+                    <tr>
+                      <th>017</th>
+                      <td>BNY MELLON BANCO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>174</th>
+                      <td>PERNAMBUCANAS FINANC S.A</td>
+                    </tr>
+                    <tr>
+                      <th>495</th>
+                      <td>LA PROVINCIA BUENOS AIRES BANCO</td>
+                    </tr>
+                    <tr>
+                      <th>125</th>
+                      <td>BRASIL PLURAL S.A BANCO</td>
+                    </tr>
+                    <tr>
+                      <th>488</th>
+                      <td>JPMORGAN CHASE BANK</td>
+                    </tr>
+                    <tr>
+                      <th>065</th>
+                      <td>BANCO ANDBANK S.A</td>
+                    </tr>
+                    <tr>
+                      <th>492</th>
+                      <td>ING BANK N.V</td>
+                    </tr>
+                    <tr>
+                      <th>250</th>
+                      <td>BANCO BCV</td>
+                    </tr>
+                    <tr>
+                      <th>145</th>
+                      <td>LEVYCAM CCV LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>494</th>
+                      <td>BANCO REP ORIENTAL URUGUAY</td>
+                    </tr>
+                    <tr>
+                      <th>253</th>
+                      <td>BEXS CC S.A</td>
+                    </tr>
+                    <tr>
+                      <th>269</th>
+                      <td>HSBC BANCO DE INVESTIMENTO</td>
+                    </tr>
+                    <tr>
+                      <th>213</th>
+                      <td>BCO ARBI S.A</td>
+                    </tr>
+                    <tr>
+                      <th>139</th>
+                      <td>INTESA SANPAOLO BRASIL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>018</th>
+                      <td>BANCO TRICURY S.A</td>
+                    </tr>
+                    <tr>
+                      <th>630</th>
+                      <td>BANCO INTERCAP S.A</td>
+                    </tr>
+                    <tr>
+                      <th>224</th>
+                      <td>BANCO FIBRA S.A</td>
+                    </tr>
+                    <tr>
+                      <th>600</th>
+                      <td>BANCO LUSO BRASILEIRO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>623</th>
+                      <td>BANCO PAN</td>
+                    </tr>
+                    <tr>
+                      <th>204</th>
+                      <td>BANCO BRADESCO CARTOES S.A</td>
+                    </tr>
+                    <tr>
+                      <th>479</th>
+                      <td>BANCO ITAUBANK S.A</td>
+                    </tr>
+                    <tr>
+                      <th>456</th>
+                      <td>BANCO MUFG BRASIL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>464</th>
+                      <td>BANCO SUMITOMO MITSUI BRASIL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>613</th>
+                      <td>OMNI BANCO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>652</th>
+                      <td>ITAÚ UNIBANCO HOLDING BM S.A</td>
+                    </tr>
+                    <tr>
+                      <th>653</th>
+                      <td>BANCO INDUSVAL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>069</th>
+                      <td>BANCO CREFISA S.A</td>
+                    </tr>
+                    <tr>
+                      <th>370</th>
+                      <td>BANCO MIZUHO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>249</th>
+                      <td>BANCO INVESTCRED UNIBANCO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>318</th>
+                      <td>BANCO BMG S.A</td>
+                    </tr>
+                    <tr>
+                      <th>626</th>
+                      <td>BANCO FICSA S.A</td>
+                    </tr>
+                    <tr>
+                      <th>270</th>
+                      <td>SAGITUR CC LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>366</th>
+                      <td>BANCO SOCIETE GENERALE BRASIL</td>
+                    </tr>
+                    <tr>
+                      <th>113</th>
+                      <td>MAGLIANO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>131</th>
+                      <td>TULLETT PREBON BRASIL CVC LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>011</th>
+                      <td>C.SUISSE HEDGING-GRIFFO CV S.A (Credit Suisse)</td>
+                    </tr>
+                    <tr>
+                      <th>611</th>
+                      <td>BANCO PAULISTA</td>
+                    </tr>
+                    <tr>
+                      <th>755</th>
+                      <td>BOFA MERRILL LYNCH BM S.A</td>
+                    </tr>
+                    <tr>
+                      <th>089</th>
+                      <td>CCR REG MOGIANA</td>
+                    </tr>
+                    <tr>
+                      <th>643</th>
+                      <td>BANCO PINE S.A</td>
+                    </tr>
+                    <tr>
+                      <th>140</th>
+                      <td>EASYNVEST - TÍTULO CV S.A</td>
+                    </tr>
+                    <tr>
+                      <th>707</th>
+                      <td>BANCO DAYCOVAL S.A</td>
+                    </tr>
+                    <tr>
+                      <th>288</th>
+                      <td>CAROL DTVM LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>101</th>
+                      <td>RENASCENCA DTVM LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>487</th>
+                      <td>DEUTSCHE BANK S.A BANCO ALEMÃO</td>
+                    </tr>
+                    <tr>
+                      <th>233</th>
+                      <td>BANCO CIFRA</td>
+                    </tr>
+                    <tr>
+                      <th>177</th>
+                      <td>GUIDE</td>
+                    </tr>
+                    <tr>
+                      <th>633</th>
+                      <td>BANCO RENDIMENTO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>218</th>
+                      <td>BANCO BS2 S.A</td>
+                    </tr>
+                    <tr>
+                      <th>292</th>
+                      <td>BS2 DISTRIBUIDORA DE TÍTULOS E INVESTIMENTOS</td>
+                    </tr>
+                    <tr>
+                      <th>169</th>
+                      <td>BANCO OLÉ BONSUCESSO CONSIGNADO S.A</td>
+                    </tr>
+                    <tr>
+                      <th>293</th>
+                      <td>LASTRO RDV DTVM LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>285</th>
+                      <td>FRENTE CC LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>080</th>
+                      <td>B&T CC LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>753</th>
+                      <td>NOVO BANCO CONTINENTAL S.A BM</td>
+                    </tr>
+                    <tr>
+                      <th>222</th>
+                      <td>BANCO CRÉDIT AGRICOLE BR S.A</td>
+                    </tr>
+                    <tr>
+                      <th>754</th>
+                      <td>BANCO SISTEMA</td>
+                    </tr>
+                    <tr>
+                      <th>098</th>
+                      <td>CREDIALIANÇA CCR</td>
+                    </tr>
+                    <tr>
+                      <th>610</th>
+                      <td>BANCO VR S.A</td>
+                    </tr>
+                    <tr>
+                      <th>712</th>
+                      <td>BANCO OURINVEST S.A</td>
+                    </tr>
+                    <tr>
+                      <th>010</th>
+                      <td>CREDICOAMO</td>
+                    </tr>
+                    <tr>
+                      <th>283</th>
+                      <td>RB CAPITAL INVESTIMENTOS DTVM LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>217</th>
+                      <td>BANCO JOHN DEERE S.A</td>
+                    </tr>
+                    <tr>
+                      <th>117</th>
+                      <td>ADVANCED CC LTDA</td>
+                    </tr>
+                    <tr>
+                      <th>336</th>
+                      <td>BANCO C6 S.A - C6 BANK</td>
+                    </tr>
+                    <tr>
+                      <th>654</th>
+                      <td>BANCO DIGIMAIS S.A</td>
+                    </tr>
+                  </tbody>
+            </table>
+        </div>
+    </div>
+</div>

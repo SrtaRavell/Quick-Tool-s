@@ -17,6 +17,12 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
+.logo{
+    margin-left: 6%;
+}
+.links{
+    margin-right: 6%;
+}
 .sidebar {
         min-width: 250px; 
         max-width:450px;
@@ -42,7 +48,7 @@ body::-webkit-scrollbar {
         width: max-content;
     } 
     .card {
-        min-width: 270px;
+        min-width: 225px;
         min-height: 450px;
     }
 }
@@ -52,12 +58,17 @@ body::-webkit-scrollbar {
         display: none;
     }
     .sidebar {
-        min-width: 100px;
+        min-width: 85px;
     }
     i {
         font-size: 1.5rem;
     }
     span {
         display: none;
+    }
+    footer {
+        font-size: 0.7rem;
+        justify-content: center;
+        flex-wrap: nowrap;
     }
 }

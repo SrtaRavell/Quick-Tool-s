@@ -1,20 +1,60 @@
-<div class="card col-5 h-50 mb-4 overflow-auto">
-    <h5 class="card-header">Validador CPF/CNPJ/RG</h5>
+<!--validador de cpf-->
+<div class="card col-5 h-25 mb-4 overflow-auto">
+    <h5 class="card-header">Validador de CPF</h5>
     <div class="card-body d-flex flex-column justify-content-evenly">
         <div>
-            <label class="form-label" for="gerador_cpf">CPF gerado:</label>
-            <input class="form-control mb-2" type="text" id="gerador_cpf">
+            <label class="form-label" for="validador_cpf">Informe o CPF</label>
+            <input class="form-control mt-2" type="text" id="validador_cpf">
         </div>
-        <a href="#" class="btn btn-primary btn-sm container d-grid col-4 ">Gerar CPF</a>
+        <div class="container d-flex flex-column align-items-center">
+            <a href="#" class="btn btn-primary btn-sm d-grid col-4 mt-2 w-auto">Verificar</a>
+            <output class="form-control d-flex justify-content-center mt-4 w-auto" for="validador_cpf"
+                name="situacao_logica">Válido</output>
+        </div>
+    </div>
+</div>
+<!--validador de cnpj-->
+<div class="card col-5 h-25 mb-4 overflow-auto">
+    <h5 class="card-header">Validador de CNPJ</h5>
+    <div class="card-body d-flex flex-column justify-content-evenly">
         <div>
-            <label class="form-label" for="gerador_cnpj">CNPJ gerado:</label>
-            <input class="form-control mb-2" type="text" id="gerador_cnpj">
+            <label class="form-label" for="validador_cnpj">Informe o CNPJ</label>
+            <input class="form-control mt-2" type="text" id="validador_cnpj">
         </div>
-        <a href="#" class="btn btn-primary btn-sm container d-grid col-4 ">Gerar CNPJ</a>
+        <div class="container d-flex flex-column align-items-center">
+            <a href="#" class="btn btn-primary btn-sm d-grid col-4 mt-2 w-auto">Verificar</a>
+            <output class="form-control d-flex justify-content-center mt-4 w-auto" for="validador_cnpj"
+                name="situacao_logica">Válido</output>
+        </div>
+    </div>
+</div>
+<!--validador de rg-->
+<div class="card col-5 h-25 mb-4 overflow-auto">
+    <h5 class="card-header">Validador de RG</h5>
+    <div class="card-body d-flex flex-column justify-content-evenly">
         <div>
-            <label class="form-label" for="gerador_rg">RG gerado:</label>
-            <input class="form-control mb-2" type="text" id="gerador_rg">
+            <label class="form-label" for="validador_rg">Informe o RG</label>
+            <input class="form-control mt-2" type="text" id="validador_rg">
         </div>
-        <a href="#" class="btn btn-primary btn-sm container d-grid col-4 ">Gerar RG</a>
+        <div class="container d-flex flex-column align-items-center">
+            <a href="#" class="btn btn-primary btn-sm d-grid col-4 mt-2 w-auto">Verificar</a>
+            <output class="form-control d-flex justify-content-center mt-4 w-auto" for="validador_rg"
+                name="situacao_logica">Válido</output>
+        </div>
+    </div>
+</div>
+<!--validador de alguma coisa-->
+<div class="card col-5 h-25 mb-4 overflow-auto">
+    <h5 class="card-header"></h5>
+    <div class="card-body d-flex flex-column justify-content-evenly">
+        <div>
+            <label class="form-label" for="">Informe</label>
+            <input class="form-control mt-2" type="text" id="">
+        </div>
+        <div class="container d-flex flex-column align-items-center">
+            <a href="#" class="btn btn-primary btn-sm d-grid col-4 mt-2 w-auto">Verificar</a>
+            <output class="form-control d-flex justify-content-center mt-4 w-auto" for=""
+                name="situacao_logica">Válido</output>
+        </div>
     </div>
 </div>

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" !important>
     <link rel="icon" href="src/favicon.png">
     <title>Quick Tool's</title>
 </head>
@@ -15,14 +15,14 @@
 <body>
     <div class="container flex-column h-100">
         <nav class="navbar navbar-dark bg-dark">
-            <div class="container flex-row align-items-center justify-content-md-between py-3">
-                <div class=" d-flex justify-content-center align-items-center ps-5">
+            <div class="header container flex-row align-items-center justify-content-md-between py-3">
+                <div class="logo d-flex justify-content-center align-items-center">
                     <a href="#" class="navbar-brand">
                         <img src="src/logo.png" width="40px" height="40px">
                     </a>
                 </div>
-                <a href="#" class="text-decoration-none" style="font-size: 2rem;">Quick Tool's</a>
-                <div class="d-flex justify-content-between align-items-center pe-5">
+                <a href="#" class="name_site text-decoration-none" style="font-size: 2rem;">Quick Tool's</a>
+                <div class="links d-flex justify-content-between align-items-center">
                     <a href="#" class="nav-sobre text-decoration-none">
                         Sobre
                     </a>
@@ -32,10 +32,9 @@
                 </div>
             </div>
         </nav>
-        <!--sidebar-->
-        <div class="d-flex flex-row h-100">
+        <div class="d-flex flex-row justify-content-between h-100">
             <div class="sidebar d-flex flex-column flex-shrink-1 p-3 text-white bg-dark">
-                <ul class="nav nav-pills flex-column mb-auto">
+                <ul class="icones nav nav-pills flex-column mb-auto">
                     <li class="nav-item">
                         <a href link="/parciais/_geradores.html" class="nav-link text-white pt-2" aria-current="page">
                             <i class="bi bi-gear me-1"></i>
@@ -106,15 +105,14 @@
             </div>
             <!--Sidebar-->
 
-            <div class="d-flex flex-row flex-wrap justify-content-evenly overflow-auto p-3" id="main">
+            <div class="d-flex flex-row flex-wrap justify-content-evenly overflow-auto p-3 w-100" id="main">
                <!--cards-->
             </div>
             <!--main-->
-
         </div>
         <!--Sidebar e Main-->
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-0 border-top">
-            <p class="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>
+        <footer class="d-flex flex-row flex-wrap justify-content-between align-items-center py-3 my-0 border-top">
+            <p class="col-md-4 mb-0 text-muted">© 2022 Persan, Inc</p>
 
             <a href="/"
                 class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
