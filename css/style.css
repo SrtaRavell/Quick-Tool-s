@@ -54,6 +54,14 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width:600px) {
+    .input-group-text {
+        width: auto;
+        padding: 0.5rem;
+        font-size: 0.7rem;
+    }
+    .botoes > .form-check > .form-check-label {
+        font-size: 0.7rem;
+    }
     .nav-sobre, .nav-contato {
         display: none;
     }
