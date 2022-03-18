@@ -1,5 +1,5 @@
 <!--validador de cpf-->
-<div class="card col-5 h-25 mb-4 overflow-auto">
+<div class="card col-5 h-50 mb-4 overflow-auto">
     <h5 class="card-header">Validador de CPF</h5>
     <div class="card-body d-flex flex-column justify-content-evenly">
         <div>
@@ -8,13 +8,23 @@
         </div>
         <div class="container d-flex flex-column align-items-center">
             <a href="#" class="btn btn-primary btn-sm d-grid col-4 mt-2 w-auto">Verificar</a>
-            <output class="form-control d-flex justify-content-center mt-4 w-auto" for="validador_cpf"
-                name="situacao_logica">Válido</output>
+            <!-- <div class="input-group mt-3">
+                <span class="input-group-text" id="basic-addon1">Situação:</span>
+                <output type="text" class="form-control" id="situacao">
+            </div> -->
+        </div>
+        <div class="alert alert-success d-flex align-items-center mt-2" role="alert">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:">
+                <use xlink:href="#check-circle-fill" />
+            </svg>
+            <div class="">
+                Válido
+            </div>
         </div>
     </div>
 </div>
 <!--validador de cnpj-->
-<div class="card col-5 h-25 mb-4 overflow-auto">
+<div class="card col-5 h-50 mb-4 overflow-auto">
     <h5 class="card-header">Validador de CNPJ</h5>
     <div class="card-body d-flex flex-column justify-content-evenly">
         <div>
@@ -23,38 +33,15 @@
         </div>
         <div class="container d-flex flex-column align-items-center">
             <a href="#" class="btn btn-primary btn-sm d-grid col-4 mt-2 w-auto">Verificar</a>
-            <output class="form-control d-flex justify-content-center mt-4 w-auto" for="validador_cnpj"
-                name="situacao_logica">Válido</output>
+        </div>
+        <div class="alert alert-success d-flex align-items-center mt-2" role="alert">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:">
+                <use xlink:href="#check-circle-fill" />
+            </svg>
+            <div class="">
+                Válido
+            </div>
         </div>
     </div>
 </div>
 <!--validador de rg-->
-<div class="card col-5 h-25 mb-4 overflow-auto">
-    <h5 class="card-header">Validador de RG</h5>
-    <div class="card-body d-flex flex-column justify-content-evenly">
-        <div>
-            <label class="form-label" for="validador_rg">Informe o RG</label>
-            <input class="form-control mt-2" type="text" id="validador_rg">
-        </div>
-        <div class="container d-flex flex-column align-items-center">
-            <a href="#" class="btn btn-primary btn-sm d-grid col-4 mt-2 w-auto">Verificar</a>
-            <output class="form-control d-flex justify-content-center mt-4 w-auto" for="validador_rg"
-                name="situacao_logica">Válido</output>
-        </div>
-    </div>
-</div>
-<!--validador de alguma coisa-->
-<div class="card col-5 h-25 mb-4 overflow-auto">
-    <h5 class="card-header"></h5>
-    <div class="card-body d-flex flex-column justify-content-evenly">
-        <div>
-            <label class="form-label" for="">Informe</label>
-            <input class="form-control mt-2" type="text" id="">
-        </div>
-        <div class="container d-flex flex-column align-items-center">
-            <a href="#" class="btn btn-primary btn-sm d-grid col-4 mt-2 w-auto">Verificar</a>
-            <output class="form-control d-flex justify-content-center mt-4 w-auto" for=""
-                name="situacao_logica">Válido</output>
-        </div>
-    </div>
-</div>

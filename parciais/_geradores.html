@@ -22,31 +22,39 @@
             <label class="me-2" for="tamanho">Quantidade de caracteres:</label>
             <input class="form-control w-25" id="tamanho" value="8" type="number" min="0" max="20" step="1">
         </div>
-        <div>
-            <input class="form-control" type="text" id="pwd">
-        </div>
         <a href="#" class="container btn btn-primary btn-sm d-grid col-4 mt-2">Gerar</a>
+        <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">Senha:</span>
+            <output type="text" class="form-control" id="senha_gerada">
+        </div>
     </div>
 </div>
 <!--card de senha -->
 
 <div class="card col-5 h-50 mb-4 overflow-auto">
     <h5 class="card-header">Gerador CPF/CNPJ/RG</h5>
+
     <div class="card-body d-flex flex-column justify-content-evenly">
-        <a href="#" class="btn btn-primary btn-sm container d-grid col-4 ">Gerar CPF</a>
-        <div>
-            <label class="form-label" for="gerador_cpf">CPF gerado:</label>
-            <input class="form-control mb-2" type="text" id="gerador_cpf">
+        <div class="h-25 d-flex flex-column justify-content-evenly">
+            <a href="#" class="btn btn-primary btn-sm container d-grid col-4 ">Gerar CPF</a>
+            <div class="input-group">
+                <span class="input-group-text" id="basic-addon1">CPF:</span>
+                <output type="text" class="form-control" id="cpf_gerado">
+            </div>
         </div>
-        <a href="#" class="btn btn-primary btn-sm container d-grid col-4 ">Gerar CNPJ</a>
-        <div>
-            <label class="form-label" for="gerador_cnpj">CNPJ gerado:</label>
-            <input class="form-control mb-2" type="text" id="gerador_cnpj">
+        <div class="h-25 d-flex flex-column justify-content-evenly">
+            <a href="#" class="btn btn-primary btn-sm container d-grid col-4 ">Gerar CNPJ</a>
+            <div class="input-group">
+                <span class="input-group-text" id="basic-addon1">CNPJ:</span>
+                <output type="text" class="form-control" id="cnpj_gerado">
+            </div>
         </div>
-        <a href="#" class="btn btn-primary btn-sm container d-grid col-4 ">Gerar RG</a>
-        <div>
-            <label class="form-label" for="gerador_rg">RG gerado:</label>
-            <input class="form-control mb-2" type="text" id="gerador_rg">
+        <div class="h-25 d-flex flex-column justify-content-evenly">
+            <a href="#" class="btn btn-primary btn-sm container d-grid col-4 ">Gerar RG</a>
+            <div class="input-group">
+                <span class="input-group-text" id="basic-addon1">RG:</span>
+                <output type="text" class="form-control" id="rg_gerado">
+            </div>
         </div>
     </div>
 </div>
@@ -86,25 +94,25 @@
             <option value="27">TO - Tocantins</option>
         </select>
         <a href="#" class="btn btn-primary btn-sm mt-2">Gerar CEP</a>
-        <div class="d-flex flex-column mt-2 w-100">
-            <label for="cep" class="form-label">CEP:</label>
-            <input type="text" id="cep" class="form-control form-control-sm w-100">
+        <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">CEP:</span>
+            <output type="text" class="form-control" id="cep_gerado">
         </div>
-        <div class="d-flex flex-column mt-2 w-100">
-            <label for="endereco" class="form-label">Endereço:</label>
-            <input type="text" id="endereco" class="form-control form-control-sm w-100">
+        <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">Estado:</span>
+            <output type="text" class="form-control" id="estado_cep">
         </div>
-        <div class="d-flex flex-column mt-2 w-100">
-            <label for="bairro" class="form-label">Bairro:</label>
-            <input type="text" id="bairro" class="form-control form-control-sm w-100">
+        <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">Cidade:</span>
+            <output type="text" class="form-control" id="cidade_cep">
         </div>
-        <div class="d-flex flex-column mt-2 w-100">
-            <label for="cidade" class="form-label">Cidade:</label>
-            <input type="text" id="cidade" class="form-control form-control-sm w-100">
+        <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">Bairro:</span>
+            <output type="text" class="form-control" id="bairro_cep">
         </div>
-        <div class="d-flex flex-column mt-2 w-100">
-            <label for="estado" class="form-label">Estado:</label>
-            <input type="text" id="estado" class="form-control form-control-sm w-100">
+        <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">Endereço:</span>
+            <output type="text" class="form-control" id="endereco_cep">
         </div>
     </div>
 </div>
@@ -125,17 +133,17 @@
             <option value="9">Voyage</option>
         </select>
         <a href="#" class="btn btn-primary btn-sm container mt-2">Gerar cartão de crédito</a>
-        <div class="d-flex flex-column mt-2 w-100">
-            <label for="numero_cartao" class="form-label">Número do cartão (CVV):</label>
-            <input type="text" id="numero_cartao" class="form-control form-control-sm w-100">
+        <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">Nº:</span>
+            <output type="text" class="form-control" id="numero_cartao">
         </div>
-        <div class="d-flex flex-column mt-2 w-100">
-            <label for="validade" class="form-label">Data de validade:</label>
-            <input type="text" id="validade" class="form-control form-control-sm w-100">
+        <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">MM/YY:</span>
+            <output type="text" class="form-control" id="validade_cartao">
         </div>
-        <div class="d-flex flex-column mt-2 w-100">
-            <label for="cod_seguranca" class="form-label">Código de segurança:</label>
-            <input type="text" id="cod_seguranca" class="form-control form-control-sm w-100">
+        <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">CVV:</span>
+            <output type="text" class="form-control" id="cvv_cartao">
         </div>
     </div>
 </div>
