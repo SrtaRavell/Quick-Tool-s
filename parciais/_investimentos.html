@@ -1,1 +1,86 @@
-<h1>Investimentos</h1>
+<div class="card col-5 h-75 mb-4 overflow-auto">
+    <h5 class="card-header">Simular Investimentos</h5>
+    <div class="card-body d-flex flex-column justify-content-evenly">
+        <div class="col-sm">
+            <label for="valor_inicial" class="form-label">Valor inicial</label>
+            <input type="text" class="form-control" id="valor_inicial">
+        </div>
+        <div class="d-flex row g-3 align-items-center">
+            <div class="col-sm mt-4">
+                <label for="taxa_juros" class="form-label">Taxa de juros</label>
+                <div class="input-group">
+                    <span class="input-group-text">%</span>
+                    <input type="text" class="form-control" id="taxa_juros">
+                </div>
+            </div>
+            <div class="col-sm mt-4">
+                <label for="meses" class="form-label">Meses</label>
+                <input type="text" class="form-control" id="meses">
+            </div>
+        </div>
+        <div class="d-grid mt-4 justify-content-center">
+            <button type="button" class="btn btn-primary btn-sm">Simular</button>
+        </div>
+        <div class="col-sm mt-2">
+            <label for="final" class="form-label">Total poupado</label>
+            <input type="text" class="form-control" id="final"disabled>
+        </div>
+        <div class="col-sm mt-2">
+            <label for="juros" class="form-label">Juros Ganhos</label>
+            <input type="text" class="form-control" id="juros" disabled>
+        </div>
+        <div class="col-sm mt-2">
+            <label for="acumulado" class="form-label">Total acumulado</label>
+            <input type="text" class="form-control" id="acumulado" disabled>
+        </div>
+    </div>
+</div>
+
+<div class="card col-5 h-75 mb-4 overflow-auto">
+    <h5 class="card-header">Simular Financiamento</h5>
+    <div class="card-body d-flex flex-column justify-content-evenly">
+        <div class="col-sm">
+            <label for="valor_financiamento" class="form-label">Valor</label>
+            <input type="number" class="form-control" id="valor_financiamento">
+        </div>
+        <div class="col-sm mt-4">
+            <label for="entrada" class="form-label">Entrada</label>
+            <input type="text" class="form-control" id="entrada">
+        </div>
+        <div class="col-sm mt-4">
+            <label for="n_prestacoes" class="form-label">Nº Prestações</label>
+            <input type="text" class="form-control" id="n_prestacoes">
+        </div>
+        <div class="col-sm mt-4">
+            <label for="fin_juros" class="form-label">% Juros ao mês</label>
+            <input type="text" class="form-control" id="fin_juros">
+        </div>
+        <div class="d-flex flex-row mt-4 justify-content-center">
+            <button type="button" class="btn btn-primary btn-sm">Simular</button>
+            <div class="form-check ms-2">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    PRICE
+                </label>
+            </div>
+            <div class="form-check ms-2">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    SAC
+                </label>
+            </div>
+        </div>
+        <div class="col-sm mt-2">
+            <label for="final" class="form-label">Valor da prestação</label>
+            <input type="text" class="form-control" id="final"disabled>
+        </div>
+        <div class="col-sm mt-2">
+            <label for="juros" class="form-label">Total de juros</label>
+            <input type="text" class="form-control" id="juros" disabled>
+        </div>
+        <div class="col-sm mt-2">
+            <label for="acumulado" class="form-label">Total devido</label>
+            <input type="text" class="form-control" id="acumulado" disabled>
+        </div>
+    </div>
+</div>
