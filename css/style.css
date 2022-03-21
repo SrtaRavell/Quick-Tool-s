@@ -1,82 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=League+Spartan:wght@700&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&family=League+Spartan:wght@700&family=Poppins&display=swap");
 * {
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'League Spartan', sans-serif;
-    font-family: 'Poppins', sans-serif; 
+  font-family: "Fredoka", sans-serif;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+ul > li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
 }
 
 html {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 body {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 body::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
-.logo{
-    margin-left: 6%;
+.logo {
+  margin-left: 6%;
 }
-.links{
-    margin-right: 6%;
+.links {
+  margin-right: 6%;
 }
 .sidebar {
-        min-width: 250px; 
-        max-width:450px;
+  min-width: 250px;
+  max-width: 450px;
 }
 .form-label {
-    margin: 0;
+  margin: 0;
 }
 .btn {
+  width: auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .card-body > .container {
+    width: max-content;
+  }
+  .card {
+    min-width: 225px;
+    min-height: 450px;
+  }
+}
+
+@media (max-width: 600px) {
+  .input-group-text {
     width: auto;
-}
-
-@media (max-width:1200px) {
-    .container {
-        max-width: 1140px;
-    }
-}
-
-@media (max-width:992px) {
-    .container {
-        max-width: 960px;
-    }
-    .card-body > .container {
-        width: max-content;
-    } 
-    .card {
-        min-width: 225px;
-        min-height: 450px;
-    }
-}
-
-@media (max-width:600px) {
-    .input-group-text {
-        width: auto;
-        padding: 0.5rem;
-        font-size: 0.7rem;
-    }
-    .botoes > .form-check > .form-check-label {
-        font-size: 0.7rem;
-    }
-    .nav-sobre, .nav-contato {
-        display: none;
-    }
-    .sidebar {
-        min-width: 85px;
-    }
-    i {
-        font-size: 1.5rem;
-    }
-    span {
-        display: none;
-    }
-    footer {
-        font-size: 0.7rem;
-        justify-content: center;
-        flex-wrap: nowrap;
-    }
+    padding: 0.5rem;
+    font-size: 0.7rem;
+  }
+  .botoes > .form-check > .form-check-label {
+    font-size: 0.7rem;
+  }
+  .nav-sobre,
+  .nav-contato {
+    display: none;
+  }
+  .sidebar {
+    min-width: 85px;
+  }
+  i {
+    font-size: 1.5rem;
+  }
+  span {
+    display: none;
+  }
+  footer {
+    font-size: 0.7rem;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
 }

@@ -19,7 +19,7 @@
     <h5 class="card-header">Maiúscula e minúscula</h5>
     <div class="card-body d-flex flex-column justify-content-evenly align-items-center">
         <div class="w-100 d-flex flex-row justify-content-evenly align-items-center">
-            <div class="botoes">
+            <div class="botoes h-75">
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="radio_conv_texto" id="maiuscula" checked>
                     <label class="form-check-label" for="maiuscula">
@@ -45,7 +45,7 @@
         </div>
         <a href="#" class="btn btn-primary btn-sm d-grid col-4 mt-4 w-auto">Converter
         </a>
-        <div class="w-100 h-50">
+        <div class="w-100 h-25">
             <textarea class="form-control col-12 h-100" id="" placeholder="Conversão"></textarea>
         </div>
     </div>
@@ -63,7 +63,7 @@
         </a>
         <div class="w-100">
             <label class="form-label" for="texto_linhas_removidas">Texto com linhas removidas:</label>
-            <textarea class="form-control col-12 h-75" id="texto_linhas_removidas"></textarea>
+            <textarea class="form-control col-12 h-100" id="texto_linhas_removidas"></textarea>
         </div>
     </div>
 </div>
@@ -79,23 +79,148 @@
         </a>
         <div class="w-100">
             <label class="form-label" for="texto_ordenado">Texto ordenado alfabeticamente:</label>
-            <textarea class="form-control col-12 h-75" id="texto_ordenado"></textarea>
+            <textarea class="form-control col-12 h-100" id="texto_ordenado"></textarea>
         </div>
     </div>
 </div>
-<!--Alguma coisa-->
+<!--Texto de cabeça pra baixo-->
 <div class="card col-5 h-50 mb-4 overflow-auto">
-    <h5 class="card-header">Alguma coisa</h5>
+    <h5 class="card-header">Texto de cabeça pra baixo</h5>
     <div class="card-body d-flex flex-column justify-content-evenly align-items-center">
         <div class="w-100">
-            <label class="form-label" for="">Texto:</label>
-            <textarea class="form-control col-12 h-100" id=""></textarea>
+            <label class="form-label" for="texto_invercao_vertical">Texto:</label>
+            <textarea class="form-control col-12 h-100" id="texto_invercao_vertical"></textarea>
         </div>
-        <a href="#" class="btn btn-primary btn-sm d-grid col-4 mt-4 w-auto">Botão
+        <a href="#" class="btn btn-primary btn-sm d-grid col-4 mt-4 w-auto">Inverter
         </a>
         <div class="w-100">
-            <label class="form-label" for="">Resultado:</label>
+            <label class="form-label" for="texto_invertido_vertical">Texto invertido verticalmente:</label>
+            <textarea class="form-control col-12 h-100" id="texto_invertido_vertical"></textarea>
+        </div>
+    </div>
+</div>
+<!--Prefixo e Sufixo-->
+<div class="card col-5 h-50 mb-4 overflow-auto">
+    <h5 class="card-header">Prefixo e Sufixo</h5>
+    <div class="card-body d-flex flex-column justify-content-evenly align-items-center pt-0">
+        <div class="w-100 h-25">
+            <label class="form-label" for="texto_pre_sufixo">Texto:</label>
             <textarea class="form-control col-12 h-75" id=""></textarea>
+        </div>
+        <div class="input-group">
+            <span class="input-group-text" id="">Prefixo:</span>
+            <input type="text" class="form-control" id="prefixo">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text" id="">Sufixo:</span>
+            <input type="text" class="form-control" id="sufixo">
+        </div>
+        <a href="#" class="btn btn-primary btn-sm d-grid col-4 w-auto">Adicionar Prefixo/Sufixo
+        </a>
+        <div class="w-100 h-25">
+            <label class="form-label" for="texto_add_pre_sufixo">Resultado:</label>
+            <textarea class="form-control col-12 h-75" id="texto_add_pre_sufixo"></textarea>
+        </div>
+    </div>
+</div>
+<!--Textos sinonimos-->
+<div class="card col-5 h-50 mb-4 overflow-auto">
+    <h5 class="card-header">Sinônimos</h5>
+    <div class="card-body d-flex flex-column justify-content-evenly align-items-center">
+        <div class="w-100">
+            <label class="form-label" for="texto_p_sinonimos">Texto:</label>
+            <textarea class="form-control col-12 h-100" id="texto_p_sinonimos"></textarea>
+        </div>
+        <a href="#" class="btn btn-primary btn-sm d-grid col-4 mt-4 w-auto">Gerar sinônimos
+        </a>
+        <div class="w-100">
+            <label class="form-label" for="texto_sinonimos">Sinônimos:</label>
+            <textarea class="form-control col-12 h-100" id="texto_sinonimos"></textarea>
+        </div>
+    </div>
+</div>
+<!--Localizar e substituir-->
+<div class="card col-5 h-50 mb-4 overflow-auto">
+    <h5 class="card-header">Localizar e substituir</h5>
+    <div class="card-body d-flex flex-column justify-content-evenly align-items-center">
+        <div class="input-group">
+            <span class="input-group-text" id="">Localizar:</span>
+            <input type="text" class="form-control" id="localizar">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text" id="">Substituir:</span>
+            <input type="text" class="form-control" id="substituir">
+        </div>
+        <div class="w-100">
+            <label class="form-label" for="texto_p_localizar">Texto:</label>
+            <textarea class="form-control col-12 h-100" id="texto_p_localizar"></textarea>
+        </div>
+        <a href="#" class="btn btn-primary btn-sm d-grid col-4 mt-4 w-auto">Localizar e substituir
+        </a>
+        <div class="w-100">
+            <label class="form-label" for="texto_substituido">Resultado:</label>
+            <textarea class="form-control col-12 h-100" id="texto_substituido"></textarea>
+        </div>
+    </div>
+</div>
+<!--Corretor ortografico-->
+<div class="card col-5 h-50 mb-4 overflow-auto">
+    <h5 class="card-header">Corretor ortográfico</h5>
+    <div class="card-body d-flex flex-column justify-content-evenly align-items-center">
+        <div class="w-100">
+            <label class="form-label" for="texto_p_corrigir">Texto:</label>
+            <textarea class="form-control col-12 h-100" id="texto_p_corrigir"></textarea>
+        </div>
+        <a href="#" class="btn btn-primary btn-sm d-grid col-4 mt-4 w-auto">Corrigir
+        </a>
+        <div class="w-100">
+            <label class="form-label" for="texto_corrigido">Resultado:</label>
+            <textarea class="form-control col-12 h-100" id="texto_corrigido"></textarea>
+        </div>
+    </div>
+</div>
+<!--Contador de caracteres-->
+<div class="card col-5 h-50 mb-4 overflow-auto">
+    <h5 class="card-header">Contador de caracteres</h5>
+    <div class="card-body d-flex flex-column justify-content-evenly align-items-center">
+        <div class="w-100">
+            <label class="form-label" for="texto_p_contar">Texto:</label>
+            <textarea class="form-control col-12 h-100" id="texto_p_contar"></textarea>
+        </div>
+        <a href="#" class="btn btn-primary btn-sm d-grid col-4 mt-4 w-auto">Contabilizar
+        </a>
+        <div class="w-100">
+            <label class="form-label" for="texto_contado">Resultado:</label>
+            <textarea class="form-control col-12 h-100" id="texto_contado"></textarea>
+        </div>
+    </div>
+</div>
+<!--Lista de comparação-->
+<div class="card col-10 h-50 mb-4 overflow-auto">
+    <h5 class="card-header">Lista de comparação</h5>
+    <div class="card-body d-flex flex-column justify-content-evenly align-items-center">
+        <div class="textos d-flex flex-row justify-content-between align-items-center w-100 h-25">
+            <div class="w-50">
+                <textarea class="form-control w-100 me-1" id="texto_p_sinonimos" placeholder="Texto 1"></textarea>
+            </div>
+            <div class="w-50">
+                <textarea class="form-control w-100 ms-1" id="texto_p_sinonimos" placeholder="Texto 2"></textarea>
+            </div>
+        </div>
+        <a href="#" class="btn btn-primary btn-sm d-grid col-4 mt-4 w-auto">Gerar lista
+        </a>
+        <div class="w-100 h-75 mt-2" id="lista_comparativa">
+            <table class="table table-sm caption-top">
+                <caption>Lista comparativa</caption>
+                <tbody id="corpo_tabela_comparativa">
+                  <tr id="novo_texto_comparativo">
+                    <th scope="row" id="indice_left"></th>
+                    <td id="text_left"></td>
+                    <th scope="row" id="indice_right"></th>
+                    <td id="text_right"></td>
+                </tr>
+                </tbody>
+              </table>
         </div>
     </div>
 </div>
